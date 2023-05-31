@@ -1,0 +1,56 @@
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-size: 1.25rem;
+    color: rgba(0, 26, 255, 0.733);
+}
+
+.formularioBox{
+    width: 250px;
+    height: 300px;
+    border-radius: .5rem;
+    padding: 1rem;
+    background-color: white;
+    border-right: 15px solid rgba(0, 26, 255, 0.733);
+ 
+} 
+
+.fuente1{
+    font-size: .80rem;
+    
+}
+
+.fuente2{
+    font-size: .60rem;
+    
+}
+
+
+
+.fuente1 input{
+    width: 100%;
+    background-color: darkgray;
+    padding: 0;
+    border: 0;
+    border-radius: 3px;
+}
+div button{
+    width: 100%;
+    padding: .25rem 0;
+    margin-top: 5px;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    background-color: rgba(0, 26, 255, 0.733);
+}
+form div a{
+    float: right;
+    color: mediumblue;
+}
+.left{
+    float: left;
+}
