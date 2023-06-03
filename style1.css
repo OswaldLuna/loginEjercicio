@@ -1,0 +1,153 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+
+body{   
+    margin: 0;
+    
+}
+.container{
+    
+    
+    background-image: url(img/asada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding:  10px 20px;
+    /*font-family: 'Lato', sans-serif;*/
+    font-family: 'Nunito Sans', sans-serif;
+    min-width: 700px;
+    height: 100vh;
+   
+}
+
+
+
+.barra-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    color: white;
+  
+}
+
+.barra-nav p{
+    font-size: 15pt;
+    font-weight: 900;
+}
+
+
+
+.translucentBoton{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 0;
+    font-size: 7pt;
+    padding: 5px 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    
+    
+}
+
+
+.barra-nav button:hover{
+    background-color: black;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.5);   
+}
+
+
+
+.contenido{ 
+    margin-left: 150px; 
+    color: white;
+    display: flex;
+    padding: 100px 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenido button{
+    background-color: white;
+    border: 0;
+    padding: 8px 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 7pt;
+    border-radius: 5%;
+    font-weight: 800;
+    margin-right: 20px;
+    
+}
+
+.contenido button:hover{
+    cursor: pointer;
+}
+
+.contenido p{
+    margin: 0;
+    font-size: 7pt;
+    font-weight: 800;
+}
+
+.contenido h1{
+    font-size: 45pt;
+    margin: 0;
+    font-weight: lighter; 
+}
+
+.contenido a{
+    text-decoration: underline;
+    font-size: 7pt;
+    font-weight: 800;
+}
+.contenido a:hover{
+    cursor: pointer;
+
+}
+
+.reserve{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:768px){
+
+    .contenido{
+        margin-left: 20px;
+        padding: 50px 0;
+    }
+
+    .container{
+        min-width: 450px;
+    }
+}
+
+@media (max-width:320px) {
+
+.translucentBoton{
+    display: none;
+}
+.barra-nav{
+    justify-content: center;
+}
+.contenido{
+    margin-left: 5px;
+    
+}
+
+.container{
+    min-width: auto;
+    
+    
+}
+
+.contenido h1{
+    font-size: 25pt;
+}
+
+
+    
+}
+
